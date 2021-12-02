@@ -259,7 +259,9 @@ public class Main {
                         }else{
                             percentageWinRate = 0.1;
                         }
+                        // if next day, reset limited budget of bonus
                         limitedBudget = 50000;
+                        // change time machine run value to time of payment
                         timeMachineRun = timeOfPayment;
                     }
 
